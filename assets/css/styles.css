@@ -470,9 +470,6 @@ header {
   justify-content: space-evenly;
   margin-bottom: var(--mb-2-5);
 }
-.section__subtitle {
-    font-size: 50px; /* You can adjust this value to whatever size you desire */
-}
 
 .about__info-title {
   font-size: var(--h2-font-size);
@@ -493,6 +490,9 @@ header {
 .about__buttons {
   display: flex;
   justify-content: center;
+}
+.section__subtitle {
+    font-size: 24px; /* Adjust to desired font size */
 }
 
 /*==================== SKILLS ====================*/
