@@ -471,7 +471,7 @@ header {
   margin-bottom: var(--mb-2-5);
 }
 .section__subtitle {
-    font-size: 20px; /* You can adjust this value to whatever size you desire */
+    font-size: 50px; /* You can adjust this value to whatever size you desire */
 }
 
 .about__info-title {
