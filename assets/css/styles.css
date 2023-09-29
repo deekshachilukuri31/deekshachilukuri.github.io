@@ -470,6 +470,9 @@ header {
   justify-content: space-evenly;
   margin-bottom: var(--mb-2-5);
 }
+.section__subtitle {
+    font-size: 20px; /* You can adjust this value to whatever size you desire */
+}
 
 .about__info-title {
   font-size: var(--h2-font-size);
