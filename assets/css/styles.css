@@ -722,12 +722,16 @@ Copy code
   display: grid;
   grid-template-columns: 1fr; /* Make the content take up the whole width */
   align-items: center; /* Align content vertically in the center */
+  justify-items: center; /* Center content horizontally in the center */
 }
+
 .portfolio__button-container {
   display: flex;
-  justify-content: center; /* Center the button horizontally */
+  flex-direction: column;
   align-items: center; /* Center the button vertically */
+  margin-top: 1rem; /* Adjust margin as needed */
 }
+
 
 .portfolio__img {
   max-width: 100%; /* Ensure the image doesn't exceed the container width */
